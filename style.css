@@ -24,12 +24,28 @@
           0.125em 0.125em 0.25em rgba(0,0,0,.17);
 }
 
-@media (min-width: 800px) {
+@media screen and (min-width: 992px) {
     :root {
         --fs-h1: 3rem;
         --fs-h2: 2rem;
         --fs-h3: 1rem;
         --fs-body: 2.25rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    :root {
+        --fs-h1: 2rem
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body { 
+        --fs-h1: 3rem;
+        --fs-h2: 2rem;
+        --fs-h3: 1rem;
+        --fs-body: 2.25rem;
+      padding-bottom: 3rem;
     }
 }
 
